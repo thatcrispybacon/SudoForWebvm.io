@@ -21,9 +21,9 @@ to the top line, this will enable the su - command to not require a password.
 exit anno with `ctrl + o` + `enter` + `ctrl + x`
 Now logout of the root shell by using `exit` or `ctrl + d` or `logout`  
 Now paste a script to your user to enable `sudo`:
-```cat >> ~/.bashrc <<'EOF'
+```
+cat >> ~/.bashrc <<'EOF'
 
-# Fake sudo using su -c
 sudo() {
     if [ "$#" -eq 0 ]; then
         su -
