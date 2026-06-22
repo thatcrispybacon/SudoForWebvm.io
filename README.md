@@ -1,6 +1,6 @@
 # Sudo for Webvm
 > [!CAUTION]
-> **This removes root password and makes you vunerable and protected**  
+> **This removes root password and makes you vulnerable and unprotected**  
 
 You can remove root password from user in [webvm.io](https://webvm.io).
 `su -`, the defult password is `password`  
